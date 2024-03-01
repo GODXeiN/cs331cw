@@ -326,5 +326,47 @@ Therefore, the sum of the three integrals, denote it $y$, achieves us
 	y >3.693\ldots
 \end{align*}
 which proves that it is not a probability density function.
+\subsection{(b)}
+We first show similarity using Jaccard node-pair similarity. We have that
+\begin{align*}
+	\text{sim}_J\left( 5,6 \right) = \frac{ | I(5) \cap I(6) | }{| I(5) \cup I(6)}
+\end{align*}
+We find that
+\begin{align*}
+	I(5) &= \{ 2,3 \}\\
+		I(6) &= \{ 1,2,3\}
+\end{align*}
+Using the graph of network $G$. Then, substituting we find
+\begin{align*}
+	\text{sim}_J\left( 5,6 \right) &= \frac{|\{1,2\}|}{|\{1,2,3\}|} \\
+		& = \frac{2}{3}\\
+		&= 0.67 \; \text{ 2d.p. }
+\end{align*}
+We now compute using SimRank. We have that $I(5) \neq I(6)$, therefore
+\begin{align*}
+	\text{sim}_R(5,6) = \frac{0.6}{|I(5)||I(6)|}\sum_{x \in I(5)}\sum_{y \in I(6)}^{}  \text{sim}_R(x,y)
+\end{align*}
+We obtain
+\begin{align*}
+	\frac{0.6}{|I(5)||I(6)|} \left(\text{sim}_R(3,1)+\text{sim}_R(3,2)+\text{sim}_R(3,3)+\text{sim}_R(2,1)+\text{sim}_R(2,2)+\text{sim}_R(2,3)\right)
+\end{align*}
+Knowing $\text{sim}_R(z,z) = 1$ we can simplify
+\begin{align*}
+	\frac{0.6}{|I(5)||I(6)|} \left(\text{sim}_R(3,1)+\text{sim}_R(3,2)+\text{sim}_R(2,1)+\text{sim}_R(2,3)\right)
+\end{align*}
+We can further simplify by knowing the fact that $I(1) = \varnothing$ and that $\text{sim}_R(a,b) = \text{sim}_R(b,a)$, therefore from definition of SimRank we have
+\begin{align*}
+	\frac{0.6}{|I(5)||I(6)|} \left(2+2\cdot \text{sim}_R(2,3)\right)
+\end{align*}
+We now find SimRank of $(2,3)$ as follows:
+\begin{align*}
+	\text{sim}_R(2,3) = \frac{0.6}{|I(2)||I(3)|}\left( \text{sim}_R(1,1) \right) = 0.6
+\end{align*}
+Substituting to our original equation, then, we obtain
+\begin{align*}
+	\frac{0.6}{|I(5)||I(6)|} \left(2+1.2\right) &= 0.32 \\
+						    &= 0.32 \;\text{ 2d.p.}
+\end{align*}
+\subsection{(c)}
 
 \end{document}

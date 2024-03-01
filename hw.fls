@@ -1,4 +1,4 @@
-PWD /home/xein/Desktop/cs331cw
+PWD /home/godxein/Desktop/cs331cw-main
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -1322,6 +1322,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmr5.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb

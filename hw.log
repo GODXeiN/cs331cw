@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.3)  29 FEB 2024 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.20)  1 MAR 2024 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -822,15 +822,15 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package epstopdf Info: Source file: <crest_black.eps>
-(epstopdf)                    date: 2023-10-07 17:31:11
+(epstopdf)                    date: 2024-03-01 01:23:24
 (epstopdf)                    size: 71748 bytes
 (epstopdf)             Output file: <crest_black-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-07 17:31:11
+(epstopdf)                    date: 2024-03-01 01:23:24
 (epstopdf)                    size: 20983 bytes
 (epstopdf)             Command: <repstopdf --outfile=crest_black-eps-converted-to.pdf crest_black.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
-<crest_black-eps-converted-to.pdf, id=43, 64.24pt x 80.3pt>
+<crest_black-eps-converted-to.pdf, id=47, 64.24pt x 80.3pt>
 File: crest_black-eps-converted-to.pdf Graphic file (type pdf)
 <use crest_black-eps-converted-to.pdf>
 Package pdftex.def Info: crest_black-eps-converted-to.pdf  used on input line 130.
@@ -926,7 +926,7 @@ l.175 		\node[text]
                     (x3) at (-3,-1.5) {$x_3$ };
 (That was another \errmessage.)
 
-<neuron.png, id=55, 757.83125pt x 314.17375pt>
+<neuron.png, id=59, 757.83125pt x 314.17375pt>
 File: neuron.png Graphic file (type png)
 <use neuron.png>
 Package pdftex.def Info: neuron.png  used on input line 187.
@@ -936,7 +936,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.194 	\item D
               iameter - higher diameter of axon means that there is less res... [1 <./neuron.png>]
-<cube.png, id=69, 501.875pt x 598.235pt>
+<cube.png, id=73, 501.875pt x 598.235pt>
 File: cube.png Graphic file (type png)
 <use cube.png>
 Package pdftex.def Info: cube.png  used on input line 200.
@@ -1040,26 +1040,32 @@ l.269 \end{align*}
                   
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[3] [4] (./hw.aux)
+[3] [4] [5] (./hw.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `hw.out' has not changed.
-(rerunfilecheck)             Checksum: DFCDA21EE4D70B07315D1CFB81FF2972;756.
+
+Package rerunfilecheck Warning: File `hw.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `hw.out':
+(rerunfilecheck)             Before: FAD7C512DF645979C885853F2F950179;835
+(rerunfilecheck)             After:  9E4F0FE121C0E40FE76C810B0DAFC0BF;914.
  ) 
 Here is how much of TeX's memory you used:
- 29621 strings out of 478287
- 558022 string characters out of 5849289
- 1101240 words of memory out of 5000000
- 47260 multiletter control sequences out of 15000+600000
+ 29625 strings out of 478287
+ 558072 string characters out of 5849289
+ 1100238 words of memory out of 5000000
+ 47261 multiletter control sequences out of 15000+600000
  507898 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,10n,131p,651b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on hw.pdf (5 pages, 253005 bytes).
+ 99i,11n,131p,651b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on hw.pdf (6 pages, 261457 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
